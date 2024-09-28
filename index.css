@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    padding: 10PX;
+}
+body{
+
+     background-color: #daecf7da;
+
+}
+.main1{
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-wrap: wrap;
+    overflow: hidden;
+
+}
+.section1{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content:space-evenly;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    width: 98%;
+
+}
+
+
+img{
+    width: 450PX;
+    height: 450PX;
+}
+
+.container{
+    min-height:450PX ;
+    width: 100%;
+    padding: 0PX 15PX;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1PX;
+    background-color: #e0e8f0;
+    color: #343A40;
+    border-radius: 16PX ;
+}
+
+h1, h2, h3, h4{
+    margin: 15px;
+}
+h1:hover{
+    border-bottom: 3PX solid  #343A40;
+}
+h2:hover{
+    border-bottom: 3PX dashed  #343A40;
+
+}
+p{
+    line-height: 28PX;
+    margin: 4px;
+}
+li {
+    line-height: 32PX;
+    text-align: left;
+
+}
+ul{
+    list-style-type: none;
+}
+
+
+.item7{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+    gap: 10PX;
+    border-radius: 16PX ;
+    padding: 10PX;
+
+}
+.card{
+    height: 180PX;
+    width: 200PX;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+    padding: 10PX;
+    border: 1PX solid #9DBBAE;;
+    border-radius: 10PX;
+    margin-top: 10PX;
+    margin-bottom: 10PX;
+    background-color: #e0e8f0;
+    color: #343A40;
+
+
+}
+.section{
+    position:relative;
+    top: -40PX;
+    transform: scale(1);
+    margin-top: 10PX;
+    margin-bottom: -50PX;
+}
+.card> p{
+    text-align: center;
+}
+
+.item2, .item5, .item3, .item4{
+    border-radius: 16PX ;
+    width: 600PX;
+
+
+}
+*::selection{
+    background-color: #9DBBAE;
+}
+::-moz-selection { /* Code for Firefox */
+    background-color: #9DBBAE;
+}
+.item3, .item5 {
+    background-color: inherit;
+}

@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #daecf7da;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 35PX;
+    
+    
+}
+button{
+    padding: 5PX 8PX;
+    margin: 5PX;
+    border-radius: 6PX;
+    background-color: #9DBBAE;
+    color: #1A1D29;
+}
+tr:nth-child(even){
+    background-color: #D3D9DF
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 10PX;
+
+}
+
+td, th {
+    padding: 5PX;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.table1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    
+    overflow-x:auto;
+    color: #1A1D29;
+    
+}
+
+#toption {
+    min-width: 500PX;
+    border-collapse: separate;
+    text-indent: initial;
+    background-color: #f4f4f4;
+}
+#table2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 300PX;
+    overflow-x:auto;
+    color: #1A1D29;
+    
+    
+}
+#ouyt{
+    width: 500PX;
+    height: 200PX;
+    background-color: #f4f4f4;
+}
+#rap1>p{
+    max-width: 550PX;
+    word-wrap: break-word;
+}
+#rap2>p{
+    width: 250PX;
+    word-wrap: break-word;
+}
+
+@media only screen and (max-width: 600px) {
+    .table1{
+        display: block;
+        overflow-x:auto;
+
+    }
+    #table2{
+        display: block;
+        overflow-x:auto;
+
+    }
+}
+input[type="range"] {
+    appearance: auto;
+    color: #3f455f;
+    cursor: default;
+    color: light-dark(rgb(16, 16, 16), rgb(255, 255, 255));
+    padding: initial;
+    border: initial;
+    margin: 2px;
+}
