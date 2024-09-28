@@ -161,35 +161,4 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         
 })
-
-
-/*// G6?? 
-while (d <= y ) {
-    q.push(x[Math.floor(Math.random() * x.length)])
-    d++
-}
-console.log(q.flat().join("").toString())
-crypto.getRandomValues()
-*/
-// G6??
-let d = 0
-let q = new Array()
-while ( d < 12) {
-    
-    
-    q.push(AN3[Math.floor(Math.random() * AN3.length)])
-    d++
-}
-console.log(q)
-
-// Create a Uint32Array to hold 10 random values
-    const array = new Uint32Array(70);
-
-    // Fill the array with random values
-    crypto.getRandomValues(array);
-
-    // Use the random values from the array
-    // Get a random integer from 0 to 9
-const randomInteger = array[0] % 10;
-
-console.log(randomInteger); 
+ 
