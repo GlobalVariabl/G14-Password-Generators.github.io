@@ -135,3 +135,15 @@ ul{
 .item3, .item5 {
     background-color: inherit;
 }
+@media screen and (min-width: 480px) {
+    p {
+        font-weight: 400;
+        font-family: "VistaSansOTCE-Reg", "sansArabicLight";
+        font-size: 18px;
+        line-height: 1.75;
+    }
+    h1, h2, h3, h4{
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-weight: 400;
+    }
+}
