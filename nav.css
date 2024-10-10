@@ -106,6 +106,7 @@ footer{
     }
 
     #mySidenav a {
+        margin-top: 180PX;
         position:  fixed;
         left: -70px;
         transition: 0.3s;
