@@ -67,7 +67,7 @@ h2:hover{
 
 }
 p{
-    line-height: 28PX;
+    /*line-height: 24PX;*/
     margin: 4px;
     font-family: "Times New Roman", Times, serif;
 }
