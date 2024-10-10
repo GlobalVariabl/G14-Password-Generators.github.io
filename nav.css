@@ -74,7 +74,7 @@ a{
 }
 samp{
     font-size: 46PX;
-    font-weight: 900;
+    font-weight: 600;
     margin: 1px;
     font-family: Tahoma, sans-serif;
 }
@@ -95,7 +95,7 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-end;
         transition: 0.3s cubic-bezier(0.47, 0, 0.48, 0.98);
     }
     .nav2{
@@ -106,9 +106,9 @@ footer{
     }
 
     #mySidenav a {
-        margin-top: 180PX;
         position:  fixed;
-        left: -70px;
+        margin-top: 280PX;
+        left: -65px;
         transition: 0.3s;
         padding: 15px;
         width: 110px;
