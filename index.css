@@ -69,6 +69,7 @@ h2:hover{
 p{
     line-height: 28PX;
     margin: 4px;
+    font-family: "Times New Roman", Times, serif;
 }
 li {
     line-height: 32PX;
@@ -144,6 +145,5 @@ ul{
     }
     h1, h2, h3, h4{
         font-family: "Segoe UI", Arial, sans-serif;
-        font-weight: 400;
     }
 }
