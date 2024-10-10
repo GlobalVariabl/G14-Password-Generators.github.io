@@ -73,10 +73,10 @@ a{
     color: #f4f4f4;
 }
 samp{
-    font-size: 40PX;
-    font-weight: 600;
+    font-size: 60PX;
+    font-weight: 900;
     margin: 1px;
-    font-family: monospace;
+    font-family: Tahoma, sans-serif;
 }
 
 footer{
@@ -93,6 +93,7 @@ footer{
     .icon{
         width: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         transition: 0.3s cubic-bezier(0.47, 0, 0.48, 0.98);
