@@ -124,7 +124,8 @@ footer{
 
       }
 
-      #G14tool {
+      /*
+    #G14tool {
         top: 20px;margin-top: 180PX;
         background-color: #04AA6D;
 
@@ -157,7 +158,7 @@ footer{
       #my{
         top: 260px;margin-top: 180PX;
         background-color: #2196F3
-      }
+      }*/
       main>img{
         width: 80%;
         display: flex;
