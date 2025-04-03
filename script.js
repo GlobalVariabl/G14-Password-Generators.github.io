@@ -36,25 +36,25 @@ let reset = document.getElementById('reset')
 
 
 // G2 
-const N  = "2843905761"
-const N2 = "3810654927"
-const N3 = "9517302648"
+const N  = "596130287463590381"
+const N2 = "496150382764856692"
+const N3 = "370864529107514318"
 
 const az =  "pknojbughivyfcrtdxeswzqaml"
 const az2 = "ykxpcojahdsnrgfqzebtwuvmli"
 const az3 = "eijfmusbkycndxgtwrzolhpvqa"
 
-const AZ =  "AQZSEWRDXFTCGYUHBNJIOPMLK"
-const AZ2 = "GKVWRAJTLEHFMYXBNOSPDQTZCIU"
-const AZ3 = "ERHDKLMNQAXTBWZGCSOIUVPYJ"
+const AZ =  "CEMSIXHJHWBGRALZYTPDCNFOVUXPKQYUOLDXBKOPYLSDITZ"
+const AZ2 = "PZJWFWWKDXJGYVWYSVXSSTHJFDXQUTTJPMICAQAGKPETEFI"
+const AZ3 = "DUJSKHMYGWJYPONIFHEATRIJHRTDEWCVYGIFGQHZZRXQNHK"
 
-const C = "_#?:!$%+=-,/ @. )*~"
-const C2 = "[&~?:%@.#$+=_ -,/*!"
-const C3 = ":_ -,=/?.&~%@+!#(*$"
+const C = "?$=,:(*@~=)&*? +=~$*?&[&#,_+ %.&-*/"
+const C2 = " _#  , ~@$&#%%!* *=:*.&!~#/.!=_/!~[??+*(-?+/#$_*&:.(%&_#_:$,~_=$=,_:[+"
+const C3 = "!@ -:%+*!% ##[$=/$$&[~_@ (,~:-,~ #$%**?-+ ,*+%%?_!*~.+?*% + _*_)!#.+%~"
 
-const AN = "Rpok6YctnYmDr5pNlyT2bRjXh0J_MhjY8hW+ApcrY$f2tY3lH1v#B6NNkmXc5s9fDVZLESaAA55NDzO*xhy9Gkc"
-const AN2 = "snpIJFEs9e9,Ygwy26givQ%cYE+rD3v0FB04Ra3HdsKIi8#Ww6j@9d_iRgGl0BaE=k"
-const AN3 = "QU%.U6G~cbqwHnc-TDI5BCmd=W2gfULpGn6yTy8$m_863ZyHkdb#bIbovB"
+const AN = "KHn-z$Nlc8rA_uTiaRHcEUTtN#5cTZ3Zni*6IGpnLVyNToybnnNHI2)466vcHz_xhZA9bv6T5Z0$dP6YUL06Byj ABT"
+const AN2 = "c0dtRD9z52h66ki56IAsCA=039b!292hOHaF6Xpu0cD6yhYcICny3YyUp3A.wALBU41OfRr+-wNAfMTN=n~NTYSfy ,"
+const AN3 = "Sa6NDoBKfDnjVZR%y5DNbJTTJmpg2~Y%gh2P3s.p Y11pPNj2OW8V0d!NG6B$O6TL$o#5$J3JXy+ObATDND$MUT8"
 
 
 // G3  
