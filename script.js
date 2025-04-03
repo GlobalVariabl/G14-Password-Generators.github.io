@@ -1,4 +1,5 @@
 "use strict"
+let checkbox = document.getElementsByClassName("checkbox")
 
 let range = document.getElementsByClassName('range')[0]
 let span = document.getElementsByTagName('span')[0]
