@@ -42,11 +42,9 @@ document.addEventListener('DOMContentLoaded', () => {
     let spanValue = 16;
 
     range.addEventListener('change', (e) => {
-        console.log(e)
     for (let i = 6; i <= e.target.value; i++) {
         span.textContent = i
         spanValue = i
-        console.log(i)
     }
     });
     
