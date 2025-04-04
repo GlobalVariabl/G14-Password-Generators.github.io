@@ -1,4 +1,8 @@
 "use strict"
+let range = document.getElementsByClassName('range')[0]
+let span = document.getElementsByTagName('span')[0]
+let checkbox  = document.getElementsByClassName('input')
+
 
 let mark = document.getElementById('mark')
 
@@ -38,12 +42,14 @@ document.addEventListener('DOMContentLoaded', () => {
     let spanValue = 16;
 
     range.addEventListener('change', (e) => {
+        console.log(e)
     for (let i = 6; i <= e.target.value; i++) {
         span.textContent = i
         spanValue = i
+        console.log(i)
     }
     });
-    let checkbox = document.getElementsByTagName("input")
+    
     Array.from(checkbox).forEach(( element, index, arr)=>{
         element.addEventListener("click",(e)=>{
             total.push([values[index]]);
